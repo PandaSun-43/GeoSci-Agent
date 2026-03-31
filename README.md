@@ -50,7 +50,26 @@ streamlit run app.py
 Optional: Provide your OpenAI API key to enable LLM features.
 
 ## Demo Screenshots
+### 1️⃣ App Interface
+- **Fig 1 & 2:** Main interface and sidebar settings
+![App Interface 1](docs/figures/fig1.png)
+![App Interface 2](docs/figures/fig2.png)
 
+### 2️⃣ Data Quality Check
+- **Fig 3:** Check missing values (builtin_missing)
+![Missing Values](docs/figures/fig3.png)
+
+### 3️⃣ Distribution Visualization
+- **Fig 4:** Distribution plot of a numeric variable (builtin_distribution)
+![Distribution](docs/figures/fig4.png)
+
+### 4️⃣ Correlation Analysis
+- **Fig 5:** Correlation heatmap of environment variables and target `y`
+![Correlation Heatmap](docs/figures/fig5.png)
+
+### 5️⃣ Variable–Target Relationships
+- **Fig 6:** Each variable correlation with `y`, partial correlation, and heuristic causal hints
+![Partial Correlation & Causal Hint](docs/figures/fig6.png)
 
 ### Notes
 - The app works offline for built-in analysis (EDA, correlation, regression)
